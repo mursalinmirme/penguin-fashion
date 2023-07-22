@@ -32,6 +32,9 @@
       .my-heading-color {
         color: #363958;
       }
+      .my-shadow{
+        box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+      }
     </style>
   </head>
   <body>
@@ -65,7 +68,7 @@
           <div class="flex flex-col md:flex-row items-center">
             <div class="w-full px-4 leading-normal md:w-1/2">
               <h2
-                class="font-bebas text-[55px] md:text-[80px] my-heading-color"
+                class="font-bebas text-[55px] md:text-[80px] my-heading-color leading-[105px]"
               >
                 <span class="text-orange-300">Be the Penguins</span><br />
                 of Winter
@@ -274,44 +277,50 @@
           </div>
         </div>
       </section>
+      <!-- our services section -->
+      <section class="our-services mt-10 md:mt-28 pb-48">
+        <div class="our-service-container flex flex-col-reverse md:flex-row items-center w-full md:w-10/12 mx-auto">
+          <div class="services-content px-5 md:px-0 w-full md:w-1/2">
+            <!-- single service -->
+            <div class="single-service my-shadow p-6 mt-5 rounded-xl w-full md:w-4/5 flex flex-col text-center md:flex-row items-center">
+              <div class="service-icon">
+                <img class="w-20" src="icons/house.png" alt="">
+              </div>
+              <div class="service-description ml-5">
+                <h3 class="text-2xl font-bold my-heading-color mt-3 md:mt-0">Find the Perfect Fit</h3>
+                <p class="w-full md:w-3/4 font-roboto mt-2 md:text-base font-normal mx-auto">Everybody is different, which is why we
+                  offer styles for every body.</p>
+              </div>
+            </div>
+            <div class="single-service my-shadow p-6 mt-5 rounded-xl w-full md:w-4/5 flex flex-col text-center md:flex-row items-center">
+              <div class="service-icon">
+                <img class="w-20" src="icons/box.png" alt="">
+              </div>
+              <div class="service-description ml-5">
+                <h3 class="text-2xl font-bold my-heading-color mt-3 md:mt-0">Free Exchanges</h3>
+                <p class="w-full md:w-3/4 font-roboto mt-2 md:text-base font-normal mx-auto">One of the many reasons you can shop
+                  with peace of mind.</p>
+              </div>
+            </div>
+            <div class="single-service my-shadow p-6 mt-5 rounded-xl w-full md:w-4/5 flex flex-col text-center md:flex-row items-center">
+              <div class="service-icon">
+                <img class="w-20" src="icons/question.png" alt="">
+              </div>
+              <div class="service-description ml-5">
+                <h3 class="text-2xl font-bold my-heading-color mt-3 md:mt-0">Contact Our Seller</h3>
+                <p class="w-full md:w-3/4 font-roboto mt-2 md:text-base font-normal mx-auto">They are here to help you. That's quite 
+                  literally what we pay them for.</p>
+              </div>
+            </div>
+          </div>
+          <div class="services-image p-5 md:p-0 w-full md:w-1/2 mt-12">
+            <img class="w-3/ md:w-4/4" src="images/shopping.png" alt="">
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+
     </footer>
   </body>
 </html>
